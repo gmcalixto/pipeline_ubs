@@ -25,3 +25,5 @@ estados = st.multiselect("Selecione os estados", df_freq['Estado'].unique())
 if estados:
     df_filtrado = df[df['Nome_UF'].isin(estados)]
     st.write(df_filtrado)
+
+//comentario teste
